@@ -1,0 +1,40 @@
+.loader {
+  border: 20px solid #ddd;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-top: 20px solid black;
+  animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+    border-top: 20px solid rgb(255, 153, 0);
+  }
+
+  20% {
+    transform: rotate(72deg);
+    border-top: 20px solid rgb(157, 255, 0);
+  }
+
+  40% {
+    transform: rotate(144deg);
+    border-top: 20px solid rgb(76, 172, 184);
+  }
+
+  60% {
+    transform: rotate(216deg);
+    border-top: 20px solid rgb(99, 76, 184);
+  }
+
+  80% {
+    transform: rotate(288deg);
+    border-top: 20px solid rgb(175, 76, 184);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    border-top: 20px solid rgb(184, 76, 85);
+  }
+}
