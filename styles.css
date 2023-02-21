@@ -5,6 +5,7 @@
   border-radius: 50%;
   border-top: 20px solid black;
   animation: loading 3s linear infinite;
+  margin: auto;
 }
 
 @keyframes loading {
